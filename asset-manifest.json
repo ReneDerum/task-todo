@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/task-todo/static/css/main.6db11eee.css",
+    "main.js": "/task-todo/static/js/main.67dd48ae.js",
+    "static/media/search-icon.png": "/task-todo/static/media/search-icon.6b51135201bc429691fe.png",
+    "static/media/box-image.png": "/task-todo/static/media/box-image.acb85ceffb393799d88a.png",
+    "static/media/error-icon5.jpg": "/task-todo/static/media/error-icon5.64ddf8eb2c8463668b4a.jpg",
+    "index.html": "/task-todo/index.html",
+    "main.6db11eee.css.map": "/task-todo/static/css/main.6db11eee.css.map",
+    "main.67dd48ae.js.map": "/task-todo/static/js/main.67dd48ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6db11eee.css",
+    "static/js/main.67dd48ae.js"
+  ]
+}
