@@ -1,0 +1,63 @@
+.LoadingTodo-container {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   position: relative;
+   margin: 20px 0;
+   padding: 12px 20px;
+   border: 1px solid gray;
+   border-radius: 4px;
+}
+.LoadingTodo-completeIcon {
+   width: 25px;
+   height: 25px;
+   line-height: 25px;
+   text-align: center;
+   border-radius: 50%;
+   color: rgb(8, 8, 58);
+   background-color: rgb(69, 212, 133);
+   cursor: pointer;
+}
+.LoadingTodo-text {
+   color: rgba(214, 206, 206, 0.8);
+   padding-left: 20px;
+}
+.LoadingTodo-deleteIcon {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+   top: 0px;
+   right: 0px;
+   text-align: center;
+   color: rgb(8, 8, 58);
+   font-weight: bold;
+   border-top-right-radius: 4px;
+   border-bottom-left-radius: 4px;
+   background-color: rgb(69, 212, 133);
+   cursor: pointer;
+}
+
+.LoadingTodo-container,
+.LoadingTodo-completeIcon,
+.LoadingTodo-deleteIcon {
+   background: linear-gradient(
+      90deg,
+      rgba(6, 3, 54, 0.2),
+      rgba(235, 235, 238, 0.2)
+   );
+   background-size: 500% 500%;
+   animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation {
+   0% {
+      background-position: 0% 50%;
+   }
+   50% {
+      background-position: 80% 50%;
+   }
+   100% {
+      background-position: 0% 50%;
+   }
+}

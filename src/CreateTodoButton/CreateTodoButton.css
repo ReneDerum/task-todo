@@ -1,0 +1,17 @@
+.btn {
+   position: fixed;
+   width: 50px;
+   height: 50px;
+   bottom: 10px;
+   right: 10px;
+   border-radius: 50%;
+   border: none;
+   font-size: 30px;
+   color: rgb(13, 7, 65);
+   background-color: rgb(69, 212, 133);
+   transition: all 0.5s;
+   z-index: 100;
+}
+.btn:hover {
+   transform: scale(1.2);
+}

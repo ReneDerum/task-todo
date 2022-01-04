@@ -1,0 +1,11 @@
+.empty-container {
+   margin-top: 30px;
+   text-align: center;
+}
+.empty-image {
+   filter: opacity(0.8);
+}
+.empty-message {
+   color: rgb(192, 189, 189);
+   line-height: 22px;
+}
